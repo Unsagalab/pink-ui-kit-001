@@ -1,0 +1,87 @@
+body{
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#FFF1F6;
+  font-family:Arial, sans-serif;
+}
+
+.phone{
+  width:330px;
+  min-height:620px;
+  padding:24px;
+  border-radius:36px;
+  background:#FFE4EF;
+  box-shadow:0 20px 50px rgba(219,39,119,.15);
+}
+
+.card{
+  margin-top:55px;
+  text-align:center;
+}
+
+.logo{
+  font-size:42px;
+  margin-bottom:8px;
+}
+
+.brand{
+  color:#DB2777;
+  font-weight:bold;
+  letter-spacing:3px;
+  margin:0;
+}
+
+h1{
+  color:#9D174D;
+  font-size:36px;
+  margin:18px 0 10px;
+}
+
+.text{
+  color:#DB2777;
+  margin-bottom:30px;
+}
+
+input{
+  width:100%;
+  box-sizing:border-box;
+  padding:16px;
+  margin-bottom:14px;
+  border:2px solid #FFAFCC;
+  border-radius:16px;
+  background:#FFF1F6;
+  color:#9D174D;
+  font-size:16px;
+  outline:none;
+}
+
+input::placeholder{
+  color:#DB2777;
+}
+
+button{
+  width:100%;
+  padding:16px;
+  margin-top:10px;
+  border:none;
+  border-radius:16px;
+  background:#FB6F92;
+  color:white;
+  font-size:16px;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#DB2777;
+}
+
+.link{
+  text-align:center;
+  color:#DB2777;
+  font-weight:bold;
+  margin-top:22px;
+}
